@@ -110,47 +110,139 @@
 ```javascript
 const services = {
   digitalMarketing: [
-    "Social Media Management & Marketing",
+    "Social Media Management & Marketing (Facebook, Instagram)",
     "SEO & Content Strategy",
     "Google Ads & Facebook Ads Management",
     "Email Marketing Campaigns",
     "Brand Strategy & Development",
-    "Analytics & Performance Tracking"
+    "Analytics & Performance Tracking",
+    "E-commerce Marketing Solutions"
   ],
 
   webDevelopment: [
     "Responsive Website Development",
-    "E-commerce Solutions",
+    "E-commerce Solutions (Shopify, WooCommerce)",
     "Landing Page Design & Optimization",
-    "Web Application Development",
+    "Web Application Development (React, Next.js)",
     "CMS Integration (WordPress, etc)",
     "API Integration & Development"
   ],
 
-  blockchain: [
-    "Smart Contract Development",
-    "DApp Development",
-    "Web3 Integration",
-    "NFT Projects"
+  blockchainWeb3: [
+    "Smart Contract Development (Solidity)",
+    "DApp Development & Integration",
+    "DeFi Protocol Implementation",
+    "NFT Projects & Marketplaces",
+    "Web3 Integration for Existing Websites",
+    "Chainlink Oracle Integration",
+    "Token & ICO Consultation"
   ]
 };
+
+// Currently working at Desa Murni Batik
+// Specializing in Digital Transformation & Blockchain Solutions
 ```
 
 ---
 
-### 📈 Projek & Portfolio
+### 📈 Featured Projects
 
-Sila lawati [GitHub Repositories](https://github.com/MuhammadLuqman-99?tab=repositories) saya untuk melihat projek-projek yang telah saya kerjakan.
+<table>
+<tr>
+<td width="50%">
+
+#### 🔐 Blockchain & Web3 Projects
+[![sent-crypto-web3](https://github-readme-stats.vercel.app/api/pin/?username=MuhammadLuqman-99&repo=sent-crypto-web3&theme=tokyonight&hide_border=true)](https://github.com/MuhammadLuqman-99/sent-crypto-web3)
+
+[![hardhat-defi-fcc](https://github-readme-stats.vercel.app/api/pin/?username=MuhammadLuqman-99&repo=hardhat-defi-fcc&theme=tokyonight&hide_border=true)](https://github.com/MuhammadLuqman-99/hardhat-defi-fcc)
+
+</td>
+<td width="50%">
+
+#### ⛓️ Smart Contract Development
+[![lottery-chainlink-fcc](https://github-readme-stats.vercel.app/api/pin/?username=MuhammadLuqman-99&repo=lottery-chainlink-fcc&theme=tokyonight&hide_border=true)](https://github.com/MuhammadLuqman-99/lottery-chainlink-fcc)
+
+[![All-SubLesson-for-smart-contract](https://github-readme-stats.vercel.app/api/pin/?username=MuhammadLuqman-99&repo=All-SubLesson-for-smart-contract&theme=tokyonight&hide_border=true)](https://github.com/MuhammadLuqman-99/All-SubLesson-for-smart-contract)
+
+</td>
+</tr>
+</table>
+
+**🎯 Key Technologies & Achievements:**
+- 🔹 **43+ Repositories** focused on Web3 & Blockchain Development
+- 🔹 **DeFi Integration** with Aave Protocol implementation
+- 🔹 **Chainlink Oracles** for decentralized lottery systems
+- 🔹 **Smart Contract Development** with Hardhat & Solidity
+- 🔹 **Web3 dApps** with TypeScript & JavaScript
+- 🔹 **IoTeX Blockchain** integration and testing
+
+<p align="center">
+  <a href="https://github.com/MuhammadLuqman-99?tab=repositories">
+    <img src="https://img.shields.io/badge/View%20All%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="View All Projects"/>
+  </a>
+</p>
+
+---
+
+### 🎓 Learning & Certifications
+
+<p align="left">
+  <img src="https://img.shields.io/badge/FreeCodeCamp-0A0A23?style=for-the-badge&logo=freecodecamp&logoColor=white" alt="FreeCodeCamp"/>
+  <img src="https://img.shields.io/badge/Patrick_Collins-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Patrick Collins"/>
+  <img src="https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black" alt="Hardhat"/>
+  <img src="https://img.shields.io/badge/Chainlink-375BD2?style=for-the-badge&logo=chainlink&logoColor=white" alt="Chainlink"/>
+</p>
+
+**📚 Specialized in:**
+- Smart Contract Development & Security
+- DeFi Protocol Integration
+- Blockchain Architecture
+- Web3 Full Stack Development
+- Digital Marketing Strategy
+
+---
+
+### 🏆 GitHub Achievements
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=MuhammadLuqman-99&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1&column=7" alt="GitHub Trophies"/>
+</p>
+
+**📊 Quick Stats:**
+- 📦 **43+** Public Repositories
+- ⭐ Active contributor to Web3 ecosystem
+- 🔨 Specialized in **Hardhat**, **Chainlink**, **Aave Protocol**
+- 🎯 Focus on **DeFi**, **Smart Contracts**, **Digital Marketing**
 
 ---
 
 ### 🤝 Mari Berkolaborasi!
 
-Saya sentiasa terbuka untuk:
-- Projek Digital Marketing
-- Pembangunan Website & Web Application
-- Kolaborasi Blockchain & Web3
-- Perundingan IT & Marketing Strategy
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+**Saya sentiasa terbuka untuk:**
+
+🎯 **Digital Marketing Projects**
+- Social Media Management untuk brand/perniagaan
+- Facebook & Instagram Ads Campaign
+- SEO & Content Marketing Strategy
+- E-commerce Marketing Solutions
+
+💻 **Web Development**
+- Website Development (Landing Page, Corporate, E-commerce)
+- Web Application dengan React/Next.js
+- WordPress customization & optimization
+
+⛓️ **Blockchain & Web3**
+- Smart Contract Development & Audit
+- DeFi Protocol Integration
+- NFT Marketplace Development
+- Web3 Integration untuk existing business
+
+📊 **Consultation**
+- Digital Transformation Strategy
+- IT Infrastructure Setup
+- Marketing Technology Integration
 
 **📫 Hubungi Saya:**
 - Email: muhammadluqmanjobs@gmail.com
