@@ -92,14 +92,16 @@
 
 ### 📊 GitHub Statistics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MuhammadLuqman-99&theme=react&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117" width="48%" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=MuhammadLuqman-99&theme=react&hide_border=true&background=0D1117&date_format=M%20j%5B%2C%20Y%5D" width="48%" alt="GitHub Streak"/>
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MuhammadLuqman-99&theme=tokyonight&show_icons=true&count_private=true&hide_border=true" width="49%" alt="GitHub Stats"/>
+  <img src="https://streak-stats.demolab.com?user=MuhammadLuqman-99&theme=tokyonight&hide_border=true" width="49%" alt="GitHub Streak"/>
+</div>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadLuqman-99&theme=react&hide_border=true&bg_color=0D1117&layout=compact&langs_count=8" alt="Top Languages"/>
-</p>
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadLuqman-99&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=400" alt="Top Languages"/>
+</div>
 
 ---
 
