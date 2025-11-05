@@ -19,7 +19,7 @@
 
 ### 🚀 About Me
 
-- 💼 **Kerja Sekarang:** Digital Marketing & IT Support di Desa Murni Batik
+- 💼 **Kerja Sekarang:** Digital Marketing & IT Developer di Desa Murni Batik
 - 🎯 **Fokus:** Digital Marketing Strategy & Full Stack Development
 - 📊 **Kepakaran:** Social Media Marketing, SEO, Web Development & E-commerce
 - 🌐 **Tech Stack:** Modern Web Technologies & Digital Marketing Tools
