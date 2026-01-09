@@ -32,8 +32,7 @@
 ---
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadLuqman-99&layout=compact&theme=tokyonight&hide_border=true"
-    width="45%"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadLuqman-99&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800"
   />
 </div>
 
