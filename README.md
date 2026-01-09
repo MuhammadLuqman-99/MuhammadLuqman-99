@@ -30,7 +30,8 @@
 <br>
 
 ---
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadLuqman-99&layout=compact&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MuhammadLuqman-99&show_icons=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadLuqman-99&layout=compact&theme=dark)
 
 ### 💼 Digital Marketing Skills
 
