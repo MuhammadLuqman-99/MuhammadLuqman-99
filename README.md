@@ -5,13 +5,13 @@
   <img src="https://komarev.com/ghpvc/?username=MuhammadLuqman-99&label=Profile%20views&color=0e75b6&style=flat" alt="MuhammadLuqman-99" />
 </p>
 
-- Currently working on **Microservices E-Commerce Platform**
+- Currently working on **CRM Microservices **
 
 - Currently learning **Machine Learning**
 
 - Ask me about **Full Stack Development, Web3, Digital Marketing**
 
-- Reach me at **Luqmandevops99@gmail.com**
+- Reach me at **muhamamdluqmanjobs@gmail.com**
 
 ---
 
