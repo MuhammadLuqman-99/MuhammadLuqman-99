@@ -93,7 +93,7 @@
 </p>
 
 <p>&nbsp;
-  <img align="center" src="https://github-readme-stats-omega-six-77.vercel.app/api?username=MuhammadLuqman-99&show_icons=true&locale=en&theme=tokyonight&include_all_commits=true&count_private=true" alt="MuhammadLuqman-99" />
+  <img align="center" src="https://github-readme-stats-omega-six-77.vercel.app/api?username=MuhammadLuqman-99&show_icons=true&locale=en&theme=tokyonight&include_all_commits=true&count_private=true&include_orgs=true" alt="MuhammadLuqman-99" />
 </p>
 
 <p>
