@@ -67,22 +67,20 @@
 
 ---
 
-<h3 align="left">Featured Projects:</h3>
+<h3 align="left">What I Build:</h3>
 
-### [Kilang Desa Murni Batik E-Commerce Platform](https://github.com/KilangDesaMurniBatik)
-> Enterprise-grade microservices e-commerce platform for Malaysian batik manufacturer
+| Area | Skills |
+|------|--------|
+| **Backend** | Go (Gin), Node.js, REST API, gRPC, Microservices, Event-Driven (NATS JetStream), Clean Architecture, DDD |
+| **Frontend** | Next.js, React, TypeScript, Tailwind CSS, Server Components, SSR/SSG |
+| **Database** | PostgreSQL (multi-schema design), Redis, MongoDB, Meilisearch, GORM |
+| **DevOps** | Docker, Docker Compose, Nginx, Linux VPS, SSL/TLS, CI/CD |
+| **Integrations** | Shopee API, TikTok Shop API, OAuth 2.0, Payment Gateway, MinIO (S3) |
+| **Web3** | Solidity, Hardhat, ethers.js, Smart Contracts, NFT Marketplace |
+| **Mobile** | Flutter, Dart |
+| **Architecture** | Microservices, Event-Driven, Multi-Tenant SaaS, Schema-per-Service, RBAC |
 
-**Architecture:** 10+ Go Microservices | 4 Frontend Apps | PostgreSQL | Docker
-
-| Services | Description |
-|----------|-------------|
-| `service-auth` `service-customer` | Authentication & Customer Management |
-| `service-catalog` `service-order` | Product Catalog & Order Processing |
-| `service-inventory` `service-agent` | Inventory & Agent Network Management |
-| `service-marketplace` | Shopee, Lazada, TikTok Integration |
-| `service-notification` `service-reporting` | Notifications & Analytics |
-| `frontend-admin` `frontend-storefront` | Admin Dashboard & Customer Store |
-| `frontend-agent` `frontend-warehouse` | Agent Portal & Warehouse Management |
+**Currently building:** [Kilang Desa Murni Batik](https://github.com/KilangDesaMurniBatik) — 10 Go microservices, 4 Next.js apps, 21 Docker containers in production
 
 ---
 
