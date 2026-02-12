@@ -89,15 +89,15 @@
 <h3 align="left">GitHub Stats:</h3>
 
 <p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=MuhammadLuqman-99&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="MuhammadLuqman-99" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=MuhammadLuqman-99&show_icons=true&locale=en&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true&include_orgs=true" alt="MuhammadLuqman-99" />
 </p>
 
 <p>&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=MuhammadLuqman-99&show_icons=true&locale=en&theme=tokyonight" alt="MuhammadLuqman-99" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=MuhammadLuqman-99&show_icons=true&locale=en&theme=tokyonight&include_all_commits=true&count_private=true" alt="MuhammadLuqman-99" />
 </p>
 
 <p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=MuhammadLuqman-99&theme=tokyonight" alt="MuhammadLuqman-99" />
+  <img align="center" src="https://streak-stats.demolab.com/?user=MuhammadLuqman-99&theme=tokyonight" alt="MuhammadLuqman-99" />
 </p>
 
 ---
