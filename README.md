@@ -80,7 +80,15 @@
 | **Mobile** | Flutter, Dart |
 | **Architecture** | Microservices, Event-Driven, Multi-Tenant SaaS, Schema-per-Service, RBAC |
 
-**Currently building:** [Kilang Desa Murni Batik](https://github.com/KilangDesaMurniBatik) — 10 Go microservices, 4 Next.js apps, 21 Docker containers in production
+<h3 align="left">Projects I've Built:</h3>
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [Kilang Desa Murni Batik](https://github.com/KilangDesaMurniBatik) | E-commerce platform for batik manufacturer — 10 microservices, 4 frontend apps, Shopee & TikTok integration, 21 Docker containers in production | Go, Next.js, PostgreSQL, NATS, Docker |
+| [Kilat Pet Delivery](https://github.com/Kilat-Pet-Delivery) | Grab-style pet transport platform — Go microservices with gRPC, Flutter mobile app | Go, gRPC, Protobuf, Flutter, Docker |
+| [CRM SaaS](https://github.com/MuhammadLuqman-99/CRMKilangDesaMurniBatik) | Multi-tenant CRM with Clean Architecture & Domain-Driven Design | Go, DDD, PostgreSQL |
+| [Ads Analytics](https://github.com/MuhammadLuqman-99/Ads-Analytic) | Multi-platform ads analytics dashboard — Go backend, Next.js frontend | Go, Next.js, TypeScript |
+| [NFT Marketplace](https://github.com/MuhammadLuqman-99/hardhat-nft-marketplace-fcc-1) | Decentralized NFT marketplace on Ethereum | Solidity, Hardhat, Next.js, ethers.js |
 
 ---
 
