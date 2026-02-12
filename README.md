@@ -97,7 +97,7 @@
 </p>
 
 <p>
-  <img align="center" src="https://streak-stats.demolab.com/?user=MuhammadLuqman-99&theme=tokyonight" alt="MuhammadLuqman-99" />
+  <img align="center" src="https://github-readme-streak-stats-two-eta-34.vercel.app/?user=MuhammadLuqman-99&theme=tokyonight" alt="MuhammadLuqman-99" />
 </p>
 
 ---
