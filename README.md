@@ -108,6 +108,15 @@
 
 ---
 
+<h3 align="left">Resume:</h3>
+<p align="left">
+  <a href="https://github.com/MuhammadLuqman-99/MuhammadLuqman-99/blob/main/Muhammad%20Luqman%20Resume.pdf">
+    <img src="https://img.shields.io/badge/Resume-Download%20PDF-black?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume"/>
+  </a>
+</p>
+
+---
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="mailto:Luqmandevops99@gmail.com">
