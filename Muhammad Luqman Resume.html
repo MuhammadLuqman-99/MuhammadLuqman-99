@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Luqman Bin Yusoff - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #111;
+            line-height: 1.5;
+            background: #fff;
+        }
+
+        .resume {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 50px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding-bottom: 16px;
+            border-bottom: 2px solid #111;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #000;
+            margin-bottom: 4px;
+        }
+
+        .header .title {
+            font-size: 14px;
+            color: #333;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        .contact-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 6px 8px;
+            font-size: 12.5px;
+            color: #333;
+        }
+
+        .contact-row a {
+            color: #111;
+            text-decoration: none;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .contact-item:not(:last-child)::after {
+            content: "|";
+            margin-left: 8px;
+            color: #999;
+        }
+
+        /* Main content */
+        .section {
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #000;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+        }
+
+        /* Summary */
+        .summary {
+            font-size: 12.5px;
+            color: #222;
+            line-height: 1.65;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 30px;
+        }
+
+        .skill-category {
+            margin-bottom: 2px;
+        }
+
+        .skill-label {
+            font-size: 12px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 2px;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3px;
+        }
+
+        .tag {
+            font-size: 10.5px;
+            background: #f5f5f5;
+            color: #222;
+            padding: 1px 7px;
+            border-radius: 2px;
+            border: 1px solid #ccc;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 16px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 1px;
+        }
+
+        .job-title {
+            font-size: 13.5px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .job-date {
+            font-size: 12.5px;
+            color: #444;
+            font-style: italic;
+            white-space: nowrap;
+        }
+
+        .job-company {
+            font-size: 12.5px;
+            color: #444;
+            font-style: italic;
+            margin-bottom: 6px;
+        }
+
+        .job-intro {
+            font-size: 12.5px;
+            color: #222;
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .sub-section {
+            margin-bottom: 8px;
+        }
+
+        .sub-title {
+            font-size: 12.5px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 3px;
+        }
+
+        .bullets {
+            list-style: none;
+            padding: 0;
+        }
+
+        .bullets li {
+            font-size: 12px;
+            color: #222;
+            padding-left: 12px;
+            position: relative;
+            margin-bottom: 3px;
+            line-height: 1.55;
+        }
+
+        .bullets li::before {
+            content: "\2022";
+            color: #000;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Microservices table */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 3px;
+            margin: 6px 0;
+        }
+
+        .service-chip {
+            font-size: 10px;
+            background: #f5f5f5;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            padding: 2px 4px;
+            text-align: center;
+            color: #222;
+        }
+
+        /* Education */
+        .edu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .edu-degree {
+            font-size: 13px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .edu-date {
+            font-size: 12.5px;
+            color: #444;
+            font-style: italic;
+        }
+
+        .edu-school {
+            font-size: 12.5px;
+            color: #444;
+            font-style: italic;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: #fff;
+            }
+
+            .resume {
+                margin: 0;
+                padding: 30px 40px;
+                max-width: 100%;
+            }
+
+            .section {
+                margin-bottom: 14px;
+            }
+
+            .tag, .service-chip {
+                background: #f5f5f5 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            @page {
+                margin: 0.3in;
+                size: A4;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>MUHAMMAD LUQMAN BIN YUSOFF</h1>
+            <div class="title">Full Stack Engineer &mdash; Go, Microservices &amp; TypeScript</div>
+            <div class="contact-row">
+                <span class="contact-item">Kuala Nerus, Terengganu</span>
+                <span class="contact-item">+60 13-977 2698</span>
+                <span class="contact-item"><a href="mailto:muhammadluqmanjobs@gmail.com">muhammadluqmanjobs@gmail.com</a></span>
+                <span class="contact-item"><a href="https://github.com/MuhammadLuqman-99">GitHub: MuhammadLuqman-99</a></span>
+            </div>
+        </div>
+
+        <!-- SUMMARY -->
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <p class="summary">
+                Results-oriented Full Stack Engineer who single-handedly designed, built, and deployed an enterprise e-commerce platform &mdash;
+                <strong>10 Go microservices, 4 frontend applications, and 21 Docker containers</strong> across 23 repositories.
+                Proven expertise in architecting production-grade distributed systems using Go, NATS JetStream, PostgreSQL, and Docker.
+                Built resilience patterns (Saga, Event Sourcing, Circuit Breaker, Transactional Outbox) into a shared library powering
+                the entire platform. Automated inventory synchronization across Shopee, TikTok Shop, and Lazada,
+                reducing manual operations by 90%.
+            </p>
+        </div>
+
+        <!-- TECHNICAL SKILLS -->
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-label">Languages</div>
+                    <div class="skill-tags">
+                        <span class="tag">Go (Golang)</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Backend &amp; Architecture</div>
+                    <div class="skill-tags">
+                        <span class="tag">Microservices</span>
+                        <span class="tag">Clean Architecture</span>
+                        <span class="tag">DDD</span>
+                        <span class="tag">Event-Driven</span>
+                        <span class="tag">CQRS</span>
+                        <span class="tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Backend Frameworks &amp; Libraries</div>
+                    <div class="skill-tags">
+                        <span class="tag">Gin</span>
+                        <span class="tag">GORM</span>
+                        <span class="tag">NATS JetStream</span>
+                        <span class="tag">go-redis</span>
+                        <span class="tag">golang-jwt</span>
+                        <span class="tag">Zap</span>
+                        <span class="tag">Viper</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Resilience Patterns</div>
+                    <div class="skill-tags">
+                        <span class="tag">Saga Orchestration</span>
+                        <span class="tag">Event Sourcing</span>
+                        <span class="tag">Transactional Outbox</span>
+                        <span class="tag">Circuit Breaker</span>
+                        <span class="tag">Distributed Locking</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Frontend</div>
+                    <div class="skill-tags">
+                        <span class="tag">Next.js 14</span>
+                        <span class="tag">React 18</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">shadcn/ui</span>
+                        <span class="tag">TanStack Query</span>
+                        <span class="tag">Zustand</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Databases &amp; Storage</div>
+                    <div class="skill-tags">
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Redis</span>
+                        <span class="tag">Meilisearch</span>
+                        <span class="tag">MinIO (S3)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">DevOps &amp; Infrastructure</div>
+                    <div class="skill-tags">
+                        <span class="tag">Docker</span>
+                        <span class="tag">Nginx</span>
+                        <span class="tag">GitHub Actions</span>
+                        <span class="tag">Linux</span>
+                        <span class="tag">Let's Encrypt</span>
+                        <span class="tag">Shell Scripting</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Observability &amp; Security</div>
+                    <div class="skill-tags">
+                        <span class="tag">OpenTelemetry</span>
+                        <span class="tag">Jaeger</span>
+                        <span class="tag">Sentry</span>
+                        <span class="tag">Prometheus</span>
+                        <span class="tag">Trivy</span>
+                        <span class="tag">Semgrep</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WORK EXPERIENCE -->
+        <div class="section">
+            <div class="section-title">Work Experience</div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Software Engineer (Sole Developer)</span>
+                    <span class="job-date">Aug 2023 &ndash; Present</span>
+                </div>
+                <div class="job-company">Kilang Desa Murni Batik, Terengganu</div>
+                <p class="job-intro">
+                    Single-handedly designed, built, and deployed a complete enterprise e-commerce platform &mdash;
+                    23 repositories, 10 Go microservices, 4 frontend applications, and 21 Docker containers
+                    running on a production Linux server.
+                </p>
+
+                <!-- Backend Architecture -->
+                <div class="sub-section">
+                    <div class="sub-title">Backend Architecture (Go / Gin / GORM)</div>
+                    <ul class="bullets">
+                        <li>Architected and built <strong>10 production microservices</strong> using Clean Architecture and Domain-Driven Design:
+                            authentication, catalog, order processing, inventory, marketplace integration, customer management,
+                            agent/commission management, reporting, support ticketing, and notifications.</li>
+                        <li>Developed a <strong>shared Go library (lib-common)</strong> providing 11 middleware components
+                            (JWT auth, RBAC, CORS, CSRF, rate limiting, audit logging, compression, security headers, request ID, recovery, validation),
+                            resilience patterns, and domain utilities used across all services.</li>
+                        <li>Implemented <strong>Saga Orchestration</strong> with PostgreSQL state persistence for distributed transactions
+                            (e.g., order &rarr; payment &rarr; inventory &rarr; notification workflows).</li>
+                        <li>Built <strong>Event Sourcing</strong> infrastructure with PostgreSQL event store and NATS publishing,
+                            plus a <strong>Transactional Outbox</strong> pattern ensuring exactly-once event delivery.</li>
+                        <li>Implemented <strong>Circuit Breaker, Bulkhead, and Retry with Backoff</strong> patterns
+                            for resilient inter-service communication, with <strong>Redis-based distributed locking</strong> for concurrent operations.</li>
+                    </ul>
+                    <div class="services-grid">
+                        <span class="service-chip">service-auth</span>
+                        <span class="service-chip">service-catalog</span>
+                        <span class="service-chip">service-order</span>
+                        <span class="service-chip">service-inventory</span>
+                        <span class="service-chip">service-marketplace</span>
+                        <span class="service-chip">service-customer</span>
+                        <span class="service-chip">service-agent</span>
+                        <span class="service-chip">service-reporting</span>
+                        <span class="service-chip">service-support</span>
+                        <span class="service-chip">service-notification</span>
+                    </div>
+                </div>
+
+                <!-- Marketplace Integration -->
+                <div class="sub-section">
+                    <div class="sub-title">Omnichannel Marketplace Integration</div>
+                    <ul class="bullets">
+                        <li>Engineered real-time inventory and order synchronization across <strong>Shopee, TikTok Shop, and Lazada</strong>,
+                            eliminating overselling and <strong>reducing manual operations by 90%</strong>.</li>
+                        <li>Implemented <strong>NATS JetStream</strong> messaging for high-speed, real-time stock updates across all platforms,
+                            ensuring instant inventory consistency and preventing race conditions.</li>
+                        <li>Built webhook receivers for marketplace events (order creation, status updates, stock changes)
+                            with idempotency keys to prevent duplicate processing.</li>
+                    </ul>
+                </div>
+
+                <!-- Authentication & Security -->
+                <div class="sub-section">
+                    <div class="sub-title">Authentication &amp; Security</div>
+                    <ul class="bullets">
+                        <li>Built a complete <strong>RBAC (Role-Based Access Control)</strong> system with JWT access/refresh tokens,
+                            <strong>TOTP/2FA</strong> two-factor authentication, API key auth for service-to-service calls,
+                            and token blacklisting via Redis.</li>
+                        <li>Integrated <strong>Curlec/Razorpay</strong> payment gateway with idempotency keys and webhook verification
+                            for secure payment processing.</li>
+                    </ul>
+                </div>
+
+                <!-- Frontend -->
+                <div class="sub-section">
+                    <div class="sub-title">Frontend Development (Next.js 14 / React / TypeScript)</div>
+                    <ul class="bullets">
+                        <li>Built <strong>4 web applications</strong>: admin dashboard (shadcn/ui, TanStack React Query, Recharts),
+                            customer storefront (Zustand, Framer Motion, Embla Carousel),
+                            sales agent portal, and warehouse management PWA.</li>
+                        <li>Implemented <strong>BFF (Backend-for-Frontend)</strong> pattern with Next.js server-side rendering
+                            and internal API proxy for secure data fetching.</li>
+                        <li>Built form validation with <strong>React Hook Form + Zod</strong>, data visualization with <strong>Recharts</strong>,
+                            and E2E testing with <strong>Playwright</strong> and <strong>Jest</strong>.</li>
+                    </ul>
+                </div>
+
+                <!-- Database -->
+                <div class="sub-section">
+                    <div class="sub-title">Database Architecture (PostgreSQL 16)</div>
+                    <ul class="bullets">
+                        <li>Designed <strong>schema-per-service isolation</strong> (15+ PostgreSQL schemas) with 23+ sequential migrations,
+                            bi-directional sync triggers between catalog and inventory, and optimistic locking for concurrent writes.</li>
+                        <li>Implemented <strong>CQRS</strong> pattern: PostgreSQL for writes, <strong>Meilisearch</strong> for full-text product search,
+                            and <strong>Redis</strong> caching for high-performance read operations.</li>
+                        <li>Built <strong>MinIO (S3-compatible)</strong> storage for product images and payment receipts,
+                            with AI-powered background removal via <strong>rembg</strong>.</li>
+                    </ul>
+                </div>
+
+                <!-- DevOps -->
+                <div class="sub-section">
+                    <div class="sub-title">DevOps &amp; Infrastructure</div>
+                    <ul class="bullets">
+                        <li>Orchestrated <strong>21 Docker containers</strong> via Docker Compose on a Linux VPS
+                            with resource limits, container hardening (no-new-privileges, cap_drop), and Alpine-based images.</li>
+                        <li>Configured <strong>Nginx</strong> reverse proxy with multi-domain routing, SSL termination (Let's Encrypt),
+                            rate limiting (API: 10 req/s, login: 30 req/min), response caching, and WebSocket support.</li>
+                        <li>Built <strong>GitHub Actions CI/CD</strong> pipelines: automated deployment with SSH, health checks every 6 hours,
+                            and <strong>weekly security scanning</strong> (Trivy, TruffleHog, Semgrep, govulncheck, npm audit).</li>
+                        <li>Implemented <strong>automated daily PostgreSQL backups</strong> with SHA-256 verification, MinIO remote storage,
+                            30-day retention, and pre-deployment backup safety net.</li>
+                        <li>Set up <strong>OpenTelemetry + Jaeger</strong> distributed tracing and <strong>Sentry</strong> error tracking
+                            across critical services, with Slack alerting for deployment and infrastructure events.</li>
+                    </ul>
+                </div>
+
+                <!-- Notifications -->
+                <div class="sub-section">
+                    <div class="sub-title">Notification &amp; Communication System</div>
+                    <ul class="bullets">
+                        <li>Built an event-driven notification service (pure NATS consumer, no HTTP server)
+                            with <strong>Twilio</strong> SMS and <strong>GoMail</strong> SMTP email delivery using HTML templates.</li>
+                        <li>Integrated <strong>SF Express</strong> shipping API for automated shipment tracking and logistics management.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Previous Role -->
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Robotic Welding Technician</span>
+                    <span class="job-date">Jan 2022 &ndash; Feb 2023</span>
+                </div>
+                <div class="job-company">Erect Engineering Presswork</div>
+                <ul class="bullets">
+                    <li>Operated and troubleshot automated MIG robotic welding systems for automotive clients (Proton &amp; Honda),
+                        developing analytical and troubleshooting skills now applied to software debugging and system reliability.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="edu-header">
+                <span class="edu-degree">Diploma in Electrical and Electronic Engineering</span>
+                <span class="edu-date">June 2017 &ndash; Apr 2020</span>
+            </div>
+            <div class="edu-school">Politeknik Ibrahim Sultan, Pasir Gudang, Johor</div>
+        </div>
+
+        <!-- ADDITIONAL SKILLS -->
+        <div class="section">
+            <div class="section-title">Additional Skills</div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-label">AI &amp; Automation</div>
+                    <div class="skill-tags">
+                        <span class="tag">Prompt Engineering</span>
+                        <span class="tag">Local LLM (Ollama)</span>
+                        <span class="tag">OpenAI/Anthropic API</span>
+                        <span class="tag">n8n / Make.com</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Analytics &amp; Growth</div>
+                    <div class="skill-tags">
+                        <span class="tag">GA4</span>
+                        <span class="tag">GTM Server-Side</span>
+                        <span class="tag">Conversion API</span>
+                        <span class="tag">Technical SEO</span>
+                        <span class="tag">Core Web Vitals</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
