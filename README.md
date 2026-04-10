@@ -1,11 +1,11 @@
 <h1 align="center">Hi, I'm Muhammad Luqman</h1>
-<h3 align="center">Full Stack Developer & Digital Marketer</h3>
+<h3 align="center">Software Engineer </h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=MuhammadLuqman-99&label=Profile%20views&color=0e75b6&style=flat" alt="MuhammadLuqman-99" />
 </p>
 
-- Currently working on **CRM Microservices**
+- Currently working on **FULL SYSTEM**
 
 - Currently learning **Machine Learning**
 
