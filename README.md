@@ -1,128 +1,40 @@
-<h1 align="center">Hi, I'm Muhammad Luqman</h1>
-<h3 align="center">Software Engineer </h3>
+# Muhammad Luqman
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MuhammadLuqman-99&label=Profile%20views&color=0e75b6&style=flat" alt="MuhammadLuqman-99" />
-</p>
+Software Engineer · Malaysia 🇲🇾
 
-- Currently working at **MHUB**
-
-- Currently learning **Machine Learning**
-
-- Ask me about **Full Stack Development, Web3, Digital Marketing**
-
-- Reach me at **muhamamdluqmanjobs@gmail.com**
+Software Engineer at [MHub](https://mhub.my).
+Previously at [Kilang Desa Murni Batik](https://github.com/KilangDesaMurniBatik) and [Kilat Pet Delivery](https://github.com/Kilat-Pet-Delivery).
 
 ---
 
-<h3 align="left">Tech Stack:</h3>
+### Stack
 
-**Languages:**
+**Backend** &nbsp;·&nbsp; Go · Gin · gqlgen · GraphQL · PostgreSQL · Redis · NATS
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" alt="rust" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg" alt="solidity" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-</p>
+**Frontend** &nbsp;·&nbsp; React · Next.js · TypeScript · Tailwind · shadcn/ui
 
-**Frontend:**
+**Infra** &nbsp;·&nbsp; Docker · Linux · CI/CD · Microservices · Multi-tenant SaaS
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="tailwind" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/>
-</p>
-
-**Backend & Database:**
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="express" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" alt="redis" width="40" height="40"/>
-</p>
-
-**DevOps & Tools:**
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40"/>
-</p>
-
-**Web3 & Blockchain:**
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg" alt="solidity" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/ethereum/ethereum-icon.svg" alt="ethereum" width="40" height="40"/>
-</p>
+**Exploring** &nbsp;·&nbsp; Rust · Solidity · Machine Learning
 
 ---
 
-<h3 align="left">What I Build:</h3>
+### Selected work
 
-| Area | Skills |
-|------|--------|
-| **Backend** | Go (Gin), Node.js, REST API, gRPC, Microservices, Event-Driven (NATS JetStream), Clean Architecture, DDD |
-| **Frontend** | Next.js, React, TypeScript, Tailwind CSS, Server Components, SSR/SSG |
-| **Database** | PostgreSQL (multi-schema design), Redis, MongoDB, Meilisearch, GORM |
-| **DevOps** | Docker, Docker Compose, Nginx, Linux VPS, SSL/TLS, CI/CD |
-| **Integrations** | Shopee API, TikTok Shop API, OAuth 2.0, Payment Gateway, MinIO (S3) |
-| **Web3** | Solidity, Hardhat, ethers.js, Smart Contracts, NFT Marketplace |
-| **Mobile** | Flutter, Dart |
-| **Architecture** | Microservices, Event-Driven, Multi-Tenant SaaS, Schema-per-Service, RBAC |
-
-<h3 align="left">Projects I've Built:</h3>
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| [Kilang Desa Murni Batik](https://github.com/KilangDesaMurniBatik) | E-commerce platform for batik manufacturer — 10 microservices, 4 frontend apps, Shopee & TikTok integration, 21 Docker containers in production | Go, Next.js, PostgreSQL, NATS, Docker |
-| [Kilat Pet Delivery](https://github.com/Kilat-Pet-Delivery) | Grab-style pet transport platform — Go microservices with gRPC, Flutter mobile app | Go, gRPC, Protobuf, Flutter, Docker |
-| [CRM SaaS](https://github.com/MuhammadLuqman-99/CRMKilangDesaMurniBatik) | Multi-tenant CRM with Clean Architecture & Domain-Driven Design | Go, DDD, PostgreSQL |
-| [Ads Analytics](https://github.com/MuhammadLuqman-99/Ads-Analytic) | Multi-platform ads analytics dashboard — Go backend, Next.js frontend | Go, Next.js, TypeScript |
-| [NFT Marketplace](https://github.com/MuhammadLuqman-99/hardhat-nft-marketplace-fcc-1) | Decentralized NFT marketplace on Ethereum | Solidity, Hardhat, Next.js, ethers.js |
+- **[Kilang Desa Murni Batik](https://github.com/KilangDesaMurniBatik)** — 10 microservices · 4 frontends · Shopee + TikTok integrations
+- **[Kilat Pet Delivery](https://github.com/Kilat-Pet-Delivery)** — Go microservices · gRPC · Flutter mobile
+- **[CRM SaaS](https://github.com/MuhammadLuqman-99/CRMKilangDesaMurniBatik)** — Clean Architecture · DDD · multi-tenant
 
 ---
 
-<h3 align="left">GitHub Stats:</h3>
+### Stats
 
-<p>
-  <img align="left" src="https://github-readme-stats-omega-six-77.vercel.app/api/top-langs?username=MuhammadLuqman-99&show_icons=true&locale=en&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true&include_orgs=true" alt="MuhammadLuqman-99" />
-</p>
+![Luqman's stats](https://github-readme-stats.vercel.app/api?username=MuhammadLuqman-99&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent&hide=issues&card_width=450)
 
-<p>&nbsp;
-  <img align="center" src="https://github-readme-stats-omega-six-77.vercel.app/api?username=MuhammadLuqman-99&show_icons=true&locale=en&theme=tokyonight&include_all_commits=true&count_private=true&include_orgs=true" alt="MuhammadLuqman-99" />
-</p>
-
-<p>
-  <img align="center" src="https://github-readme-streak-stats-two-eta-34.vercel.app/?user=MuhammadLuqman-99&theme=tokyonight" alt="MuhammadLuqman-99" />
-</p>
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadLuqman-99&layout=compact&include_all_commits=true&count_private=true&hide_border=true&theme=transparent&card_width=450)
 
 ---
 
-<h3 align="left">Resume:</h3>
-<p align="left">
-  <a href="https://github.com/MuhammadLuqman-99/MuhammadLuqman-99/blob/main/Muhammad%20Luqman%20Resume.pdf">
-    <img src="https://img.shields.io/badge/Resume-Download%20PDF-black?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume"/>
-  </a>
-</p>
+### Reach me
 
----
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="mailto:Luqmandevops99@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://github.com/MuhammadLuqman-99">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
+📧 muhammadluqmanjobs@gmail.com &nbsp;·&nbsp; [Facebook](https://www.facebook.com/Muhammadluqman1999) &nbsp;·&nbsp; [GitHub](https://github.com/MuhammadLuqman-99)
