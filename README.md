@@ -88,16 +88,6 @@
 
 ---
 
-### 🚀 Selected Work
-
-| Project | Description |
-|---|---|
-| 🏭 **[Kilang Desa Murni Batik](https://github.com/KilangDesaMurniBatik)** | 10 microservices · 4 frontends · Shopee + TikTok integrations |
-| 🐾 **[Kilat Pet Delivery](https://github.com/Kilat-Pet-Delivery)** | Go microservices · gRPC · Flutter mobile |
-| 🏢 **[CRM SaaS](https://github.com/MuhammadLuqman-99/CRMKilangDesaMurniBatik)** | Clean Architecture · DDD · multi-tenant |
-
----
-
 ### 📊 GitHub Stats
 
 <p align="center">
