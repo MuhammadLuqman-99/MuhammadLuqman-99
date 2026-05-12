@@ -11,7 +11,7 @@
 
 <p align="center">
   Software Engineer at <a href="https://mhub.my">MHub</a>.<br/>
-  Previously at <a href="https://github.com/KilangDesaMurniBatik">Kilang Desa Murni Batik</a> and <a href="https://github.com/Kilat-Pet-Delivery">Kilat Pet Delivery</a>.
+  Previously at <a href="https://github.com/KilangDesaMurniBatik">Kilang Desa Murni Batik</a>.
 </p>
 
 ---
