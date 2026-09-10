@@ -29,17 +29,6 @@ software engineer at [MHub](https://mhub.my) (TRB Ventures), malaysia 🇲🇾. 
   <img src="https://raw.githubusercontent.com/MuhammadLuqman-99/MuhammadLuqman-99/output/github-contribution-graph-light.svg" width="100%" alt="contribution graph — last 31 days" />
 </picture>
 
-### featured projects
-
-| project | what it is |
-|---|---|
-| [**KilangDesaMurniBatik**](https://github.com/MuhammadLuqman-99/KilangDesaMurniBatik) | enterprise e-commerce platform — 10 Go microservices, Next.js, NATS, DDD |
-| [**CRMKilangDesaMurniBatik**](https://github.com/MuhammadLuqman-99/CRMKilangDesaMurniBatik) | multi-tenant SaaS CRM — Go, Clean Architecture, DDD |
-| [**Ads-Analytic**](https://github.com/MuhammadLuqman-99/Ads-Analytic) | multi-platform ads analytics dashboard — Go backend + Next.js frontend |
-| [**budgetku**](https://github.com/MuhammadLuqman-99/budgetku) | student financial-management PWA — Next.js, TypeScript, Supabase |
-| [**microservices-memorycore**](https://github.com/MuhammadLuqman-99/microservices-memorycore) | markdown-based memory system so AI assistants understand a microservices codebase |
-| [**system-architecture-designer**](https://github.com/MuhammadLuqman-99/system-architecture-designer) | drag-and-drop infrastructure diagram designer — TypeScript monorepo |
-
 ### reach me
 
 <a href="https://www.linkedin.com/in/muhammad-luqman-b894a4337"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:muhammadluqmanjobs@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a> <a href="https://github.com/MuhammadLuqman-99"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
