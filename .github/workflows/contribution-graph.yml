@@ -1,0 +1,44 @@
+name: Contribution graph
+
+# Renders the README's contribution line chart (dark + light SVG) with the default
+# GITHUB_TOKEN and publishes it to the `output` branch — no PAT, no third-party service.
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/contribution-graph.yml"
+      - ".github/scripts/contribution_graph.py"
+
+permissions:
+  contents: write
+
+jobs:
+  graph:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Render SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: MuhammadLuqman-99
+          OUT_DIR: dist
+          TITLE: "Luqman the coder's Contribution Graph"
+        run: python3 .github/scripts/contribution_graph.py
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh contribution graph"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
