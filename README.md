@@ -2,9 +2,9 @@
 
 ### About
 
-Software engineer at [MHub](https://mhub.my) (TRB Ventures), Malaysia 🇲🇾. Building the **Core platform** behind 8 property-tech products — a **Go / GraphQL** backend and a **React 19 / TypeScript** frontend — plus the team's **Claude Code plugin marketplaces** (skills, agents, hooks, memory systems). Before that, solo-built an enterprise e-commerce platform: 10 Go microservices, 21 containers, Shopee / TikTok Shop / Lazada sync, NATS JetStream, Next.js storefront + admin + warehouse.
+Founder of **[Niaga Labs](https://niagalabs.com)** — an independent software studio in Malaysia 🇲🇾 building **Niaga**, an e-commerce platform (Go microservices, Next.js, Shopee / TikTok Shop sync), and a paper-trading quant platform. Software engineer at [MHub](https://mhub.my) (TRB Ventures) by day, building the **Core platform** behind 8 property-tech products — a **Go / GraphQL** backend and a **React 19 / TypeScript** frontend — plus the team's **Claude Code plugin marketplaces** (skills, agents, hooks, memory systems). Before that, solo-built an enterprise e-commerce platform: 10 Go microservices, 21 containers, Shopee / TikTok Shop / Lazada sync, NATS JetStream, Next.js storefront + admin + warehouse.
 
-🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-luqman-b894a4337) · ✉️ [muhammadluqmanjobs@gmail.com](mailto:muhammadluqmanjobs@gmail.com) · 📄 [Resume](Muhammad%20Luqman%20Resume.pdf)
+🌐 [niagalabs.com](https://niagalabs.com) · ✉️ [hello@niagalabs.com](mailto:hello@niagalabs.com) · 🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-luqman-b894a4337) · ✉️ [muhammadluqmanjobs@gmail.com](mailto:muhammadluqmanjobs@gmail.com) · 📄 [Resume](Muhammad%20Luqman%20Resume.pdf)
 
 ### Core Skills
 
@@ -31,4 +31,4 @@ Software engineer at [MHub](https://mhub.my) (TRB Ventures), Malaysia 🇲🇾. 
 
 ### Reach Me
 
-<a href="https://www.linkedin.com/in/muhammad-luqman-b894a4337"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:muhammadluqmanjobs@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a> <a href="https://github.com/MuhammadLuqman-99"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://niagalabs.com"><img src="https://img.shields.io/badge/Niaga_Labs-niagalabs.com-0F172A?style=flat-square&logo=googlechrome&logoColor=white" alt="Niaga Labs website" /></a> <a href="mailto:hello@niagalabs.com"><img src="https://img.shields.io/badge/hello%40niagalabs.com-0D9488?style=flat-square&logo=maildotru&logoColor=white" alt="Email Niaga Labs" /></a> <a href="https://www.linkedin.com/in/muhammad-luqman-b894a4337"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:muhammadluqmanjobs@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a> <a href="https://github.com/MuhammadLuqman-99"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
