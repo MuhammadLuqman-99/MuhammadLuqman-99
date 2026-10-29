@@ -1,10 +1,12 @@
-<img src="assets/banner.jpg" width="100%" alt="Muhammad Luqman — Software Engineer" />
+<img src="assets/banner.svg" width="100%" alt="Soft blue sky with golden clouds and a pale moon" />
 
 ### About
 
-Founder of **[Niaga Labs](https://niagalabs.com)** — an independent software studio in Malaysia 🇲🇾 building **Niaga**, an e-commerce platform (Go microservices, Next.js, Shopee / TikTok Shop sync), and a paper-trading quant platform. Software engineer at [MHub](https://mhub.my) (TRB Ventures) by day, building the **Core platform** behind 8 property-tech products — a **Go / GraphQL** backend and a **React 19 / TypeScript** frontend — plus the team's **Claude Code plugin marketplaces** (skills, agents, hooks, memory systems). Before that, solo-built an enterprise e-commerce platform: 10 Go microservices, 21 containers, Shopee / TikTok Shop / Lazada sync, NATS JetStream, Next.js storefront + admin + warehouse.
+Software engineer from Malaysia 🇲🇾 with 6 years of experience building and shipping production systems end to end, from the backend services and data model to the product UI on top.
 
-🌐 [niagalabs.com](https://niagalabs.com) · ✉️ [hello@niagalabs.com](mailto:hello@niagalabs.com) · 🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-luqman-b894a4337) · ✉️ [muhammadluqmanjobs@gmail.com](mailto:muhammadluqmanjobs@gmail.com) · 📄 [Resume](Muhammad%20Luqman%20Resume.pdf)
+Most of my work is in **Go**: event-driven microservices, GraphQL / REST / gRPC APIs and multi-tenant platforms, with **TypeScript**, React and Next.js on the frontend. I've built commerce platforms with live marketplace sync, a shared core platform that runs several SaaS products, and **quant trading systems** with strategy engines and backtesting that run 24/7. I also build AI developer tooling: Claude Code plugins, agents and MCP servers.
+
+<a href="https://www.linkedin.com/in/muhammad-luqman-b894a4337"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:muhammadluqmanjobs@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a> <a href="Muhammad%20Luqman%20Resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-334155?style=flat-square&logo=readdotcv&logoColor=white" alt="Resume" /></a>
 
 ### Core Skills
 
@@ -20,7 +22,6 @@ Founder of **[Niaga Labs](https://niagalabs.com)** — an independent software s
 - **Infra:** AWS · Docker · Kubernetes · Linux · Nginx · Prometheus · Grafana · GitHub Actions
 - **Architecture:** DDD · Clean Architecture · microservices · event-driven · CQRS · multi-tenant
 - **AI Engineering:** Claude Code · plugin marketplaces · MCP servers · skills / agents / hooks · memory systems
-- **Exploring:** Kubernetes (CKAD) · AWS Solutions Architect · Machine Learning · Rust
 
 ### Contribution Graph
 
@@ -28,7 +29,3 @@ Founder of **[Niaga Labs](https://niagalabs.com)** — an independent software s
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MuhammadLuqman-99/MuhammadLuqman-99/output/github-contribution-graph-dark.svg" />
   <img src="https://raw.githubusercontent.com/MuhammadLuqman-99/MuhammadLuqman-99/output/github-contribution-graph-light.svg" width="100%" alt="Contribution graph — last 31 days" />
 </picture>
-
-### Reach Me
-
-<a href="https://niagalabs.com"><img src="https://img.shields.io/badge/Niaga_Labs-niagalabs.com-0F172A?style=flat-square&logo=googlechrome&logoColor=white" alt="Niaga Labs website" /></a> <a href="mailto:hello@niagalabs.com"><img src="https://img.shields.io/badge/hello%40niagalabs.com-0D9488?style=flat-square&logo=maildotru&logoColor=white" alt="Email Niaga Labs" /></a> <a href="https://www.linkedin.com/in/muhammad-luqman-b894a4337"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:muhammadluqmanjobs@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a> <a href="https://github.com/MuhammadLuqman-99"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 480" width="1600" height="480" role="img" aria-label="Soft blue sky with drifting golden clouds and a pale moon">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7097D0"/>
+      <stop offset="0.55" stop-color="#7DA2D8"/>
+      <stop offset="1" stop-color="#8BAEDF"/>
+    </linearGradient>
+
+    <!-- far clouds: fine, crisp-ish wisps -->
+    <filter id="cloudsFar" filterUnits="userSpaceOnUse" x="0" y="0" width="1600" height="480">
+      <feTurbulence type="fractalNoise" baseFrequency="0.0045 0.011" numOctaves="5" seed="11" result="n"/>
+      <feColorMatrix in="n" type="matrix" result="shade"
+        values="0 0 0 0 0.71  0 0 0 0 0.70  0 0 0 0 0.86  5 0 0 0 -2.7"/>
+      <feColorMatrix in="n" type="matrix" result="body"
+        values="0 0 0 0 0.97  0 0 0 0 0.77  0 0 0 0 0.78  6 0 0 0 -3.4"/>
+      <feColorMatrix in="n" type="matrix" result="lit"
+        values="0 0 0 0 0.98  0 0 0 0 0.90  0 0 0 0 0.60  8 0 0 0 -5.1"/>
+      <feOffset in="shade" dx="4" dy="7" result="shadeO"/>
+      <feOffset in="lit" dx="-3" dy="-4" result="litShift"/>
+      <feComposite in="litShift" in2="body" operator="in" result="litO"/>
+      <feMerge result="m"><feMergeNode in="shadeO"/><feMergeNode in="body"/><feMergeNode in="litO"/></feMerge>
+      <feGaussianBlur in="m" stdDeviation="2.2"/>
+    </filter>
+
+    <!-- near clouds: big, out of focus -->
+    <filter id="cloudsNear" filterUnits="userSpaceOnUse" x="-200" y="-200" width="2000" height="880">
+      <feTurbulence type="fractalNoise" baseFrequency="0.0022 0.0042" numOctaves="4" seed="3" result="n"/>
+      <feColorMatrix in="n" type="matrix" result="rim"
+        values="0 0 0 0 0.84  0 0 0 0 0.75  0 0 0 0 0.90  5 0 0 0 -2.3"/>
+      <feColorMatrix in="n" type="matrix" result="body"
+        values="0 0 0 0 0.97  0 0 0 0 0.76  0 0 0 0 0.76  7 0 0 0 -3.45"/>
+      <feColorMatrix in="n" type="matrix" result="lit"
+        values="0 0 0 0 0.99  0 0 0 0 0.87  0 0 0 0 0.62  9 0 0 0 -5.45"/>
+      <feOffset in="lit" dx="-10" dy="-8" result="litShift"/>
+      <feComposite in="litShift" in2="body" operator="in" result="litO"/>
+      <feMerge result="m"><feMergeNode in="rim"/><feMergeNode in="body"/><feMergeNode in="litO"/></feMerge>
+      <feGaussianBlur in="m" stdDeviation="9"/>
+    </filter>
+
+    <!-- keep the middle open, clouds hug the edges -->
+    <radialGradient id="openFar" cx="0.5" cy="0.5" r="0.62" gradientTransform="translate(0.04 0) scale(1 1.6) translate(0 -0.19)">
+      <stop offset="0.28" stop-color="#000"/>
+      <stop offset="0.85" stop-color="#fff"/>
+    </radialGradient>
+    <mask id="maskFar"><rect width="1600" height="480" fill="url(#openFar)"/></mask>
+
+    <radialGradient id="blob">
+      <stop offset="0.35" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="maskNear" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="480">
+      <rect width="1600" height="480" fill="#000"/>
+      <ellipse cx="90" cy="300" rx="560" ry="300" fill="url(#blob)"/>
+      <ellipse cx="1590" cy="470" rx="330" ry="190" fill="url(#blob)" opacity="0.8"/>
+    </mask>
+
+    <!-- moon -->
+    <radialGradient id="moonFill" cx="0.38" cy="0.36" r="0.7">
+      <stop offset="0" stop-color="#DCE5F3"/>
+      <stop offset="0.7" stop-color="#BBCAE6"/>
+      <stop offset="1" stop-color="#9CB3DC"/>
+    </radialGradient>
+    <linearGradient id="moonFade" x1="0.2" y1="0.15" x2="0.95" y2="0.9">
+      <stop offset="0.3" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.95" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="moonMask" maskContentUnits="objectBoundingBox">
+      <rect width="1" height="1" fill="url(#moonFade)"/>
+    </mask>
+    <filter id="craters" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="21" result="n"/>
+      <feColorMatrix in="n" type="matrix"
+        values="0 0 0 0 0.50  0 0 0 0 0.57  0 0 0 0 0.71  -4 0 0 0 2.25"/>
+      <feGaussianBlur stdDeviation="0.8"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="moonGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="moonSoft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.9"/>
+    </filter>
+
+    <!-- foreground grass, heavily defocused -->
+    <filter id="defocus" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="defocusSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <filter id="grain" filterUnits="userSpaceOnUse" x="0" y="0" width="1600" height="480">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="5" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0 0.55  0 0 0 1.4 -0.35"/>
+    </filter>
+
+    <clipPath id="card"><rect width="1600" height="480" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1600" height="480" fill="url(#sky)"/>
+
+    <!-- moon -->
+    <circle cx="1290" cy="118" r="80" fill="#D8E3F4" opacity="0.22" filter="url(#moonGlow)"/>
+    <g mask="url(#moonMask)" filter="url(#moonSoft)">
+      <circle cx="1290" cy="118" r="70" fill="url(#moonFill)"/>
+      <circle cx="1290" cy="118" r="70" fill="#000" filter="url(#craters)" opacity="0.8"/>
+    </g>
+
+    <g mask="url(#maskFar)">
+      <rect width="1600" height="480" filter="url(#cloudsFar)"/>
+    </g>
+    <g mask="url(#maskNear)" opacity="0.95">
+      <rect width="1600" height="480" filter="url(#cloudsNear)"/>
+    </g>
+
+    <!-- grass silhouettes, bottom right -->
+    <g fill="none" stroke="#323B54" stroke-linecap="round" opacity="0.6" filter="url(#defocus)">
+      <path d="M1440 500 C1432 430 1410 380 1376 330" stroke-width="7"/>
+      <path d="M1500 500 C1498 420 1488 360 1470 300" stroke-width="6"/>
+      <path d="M1545 500 C1550 440 1566 390 1590 350" stroke-width="8"/>
+      <path d="M1370 500 C1372 460 1360 430 1338 400" stroke-width="5"/>
+    </g>
+    <g fill="#323B54" opacity="0.5" filter="url(#defocus)">
+      <ellipse cx="1372" cy="318" rx="7" ry="22" transform="rotate(-38 1372 318)"/>
+      <ellipse cx="1467" cy="288" rx="6" ry="20" transform="rotate(-18 1467 288)"/>
+      <ellipse cx="1595" cy="338" rx="8" ry="24" transform="rotate(34 1595 338)"/>
+    </g>
+    <g fill="none" stroke="#434E6A" stroke-linecap="round" opacity="0.35" filter="url(#defocusSoft)">
+      <path d="M1520 500 C1515 455 1505 425 1488 398" stroke-width="3"/>
+      <path d="M1410 500 C1414 470 1420 445 1432 420" stroke-width="2.5"/>
+    </g>
+
+    <rect width="1600" height="480" filter="url(#grain)" opacity="0.10"/>
+  </g>
+</svg>
